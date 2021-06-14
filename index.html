@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>회원정보관리</title>
+</head>
+<body>
+    <h1>회원 정보 관리</h1>
+    <div class="member-box">
+        <form name="memberForm" class="member input">
+            이름 : <input type="text">
+            <br>
+            나이 : <input type="text">
+            <br>
+            생년월일 : <input type="text">
+            <br>
+            전화번호 : <input type="text">
+            <br>
+            주소 : <input type="text">
+            <br>
+            <input type="submit" value="저장" onclick="memberSubmit(value)"> 
+            <input type="submit" value="삭제" onclick="memberSubmit(value)" class="hidden"> 
+            <input type="submit" value="수정" onclick="memberSubmit(value)" class="hidden"> 
+        </form>
+        
+        
+        <hr>
+        <div class="list">
+            <ul>
+            </ul>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

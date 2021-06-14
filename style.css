@@ -1,0 +1,60 @@
+body {
+    background-image: url("./images/sand.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Varela Round", sans-serif;
+  }
+ 
+  h1 {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 60px;
+  }
+
+  .member {
+      display: inline-block;
+  }
+
+  .member-box {
+      text-align: center;
+  }
+
+  form > input {
+      margin-top: 20px;
+      font-size: 30px;
+      
+  }
+
+  form {
+      font-weight: bold;
+      font-size: 30px;
+  }
+
+ul {
+    width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+
+hr {
+    border: solid 5px blue;
+}
+
+#save {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.selected {
+    color: blue;
+}
+
+.hidden {
+    display: none;
+}
